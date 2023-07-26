@@ -1,4 +1,4 @@
-import{s as t,x as o,i as e}from"./lit-element-56383946.js";import"./aws-login-a22256e3.js";import"./_commonjsHelpers-23102255.js";const i="/%3Crepo%3E/assets/lit-c8dae599.svg",r="/%3Crepo%3E/vite.svg";class s extends t{static get properties(){return{docsHint:{type:String},count:{type:Number}}}constructor(){super(),this.docsHint="Click on the Vite and Lit logos to learn more",this.count=0}render(){return o`
+import{s as t,x as o,i as e}from"./lit-element-56383946.js";import"./aws-login-a22256e3.js";import"./_commonjsHelpers-23102255.js";const i="/toolkit/assets/lit-c8dae599.svg",r="/toolkit/vite.svg";class s extends t{static get properties(){return{docsHint:{type:String},count:{type:Number}}}constructor(){super(),this.docsHint="Click on the Vite and Lit logos to learn more",this.count=0}render(){return o`
       <div>
         <aws-login></aws-login>
         <a href="https://vitejs.dev" target="_blank">
