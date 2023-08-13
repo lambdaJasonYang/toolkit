@@ -1,4 +1,4 @@
-import{s as t,x as e,i as o}from"./lit-element-56383946.js";import"./aws-login-a22256e3.js";import"./_commonjsHelpers-23102255.js";class i extends t{static get properties(){return{docsHint:{type:String},count:{type:Number},x:{type:String},y:{type:String}}}constructor(){super(),this.docsHint="Click on the Vite and Lit logos to learn more",this.count=0}render(){return e`
+import{s as t,x as o,i as e}from"./lit-element-56383946.js";import"./aws-login-34eefea2.js";import"./resize-controller-cde0d554.js";import"./_commonjsHelpers-23102255.js";class i extends t{static get properties(){return{docsHint:{type:String},count:{type:Number},x:{type:String},y:{type:String}}}constructor(){super(),this.docsHint="Click on the Vite and Lit logos to learn more",this.count=0}render(){return o`
           <svg height="700" width="700">
           
           <circle cx=${this.x} cy=${this.x} r="10" stroke="black" stroke-width="3" fill="red" />
@@ -6,7 +6,7 @@ import{s as t,x as e,i as o}from"./lit-element-56383946.js";import"./aws-login-a
             <slot ></slot>
           </foreignObject>
         </svg>
-    `}_onClick(){this.count++}static get styles(){return o`
+    `}_onClick(){this.count++}static get styles(){return e`
       :host {
         max-width: 1280px;
         margin: 0 auto;
@@ -76,7 +76,7 @@ import{s as t,x as e,i as o}from"./lit-element-56383946.js";import"./aws-login-a
           background-color: #f9f9f9;
         }
       }
-    `}}window.customElements.define("my-node",i);class n extends t{static get properties(){return{docsHint:{type:String},count:{type:Number},x:{type:String},y:{type:String}}}constructor(){super(),this.docsHint="Click on the Vite and Lit logos to learn more",this.count=0}render(){return e`
+    `}}window.customElements.define("my-node",i);class n extends t{static get properties(){return{docsHint:{type:String},count:{type:Number},x:{type:String},y:{type:String}}}constructor(){super(),this.docsHint="Click on the Vite and Lit logos to learn more",this.count=0}render(){return o`
           <svg height="700" width="700">
           
           <circle cx=${this.x} cy=${this.x} r="40" stroke="black" stroke-width="3" fill="red" />
@@ -84,7 +84,7 @@ import{s as t,x as e,i as o}from"./lit-element-56383946.js";import"./aws-login-a
             <slot name="left"></slot>
           </foreignObject>
         </svg>
-    `}_onClick(){this.count++}static get styles(){return o`
+    `}_onClick(){this.count++}static get styles(){return e`
       :host {
         max-width: 1280px;
         margin: 0 auto;
